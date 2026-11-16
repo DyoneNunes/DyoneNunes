@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="50%" stop-color="#0B132B" />
+      <stop offset="100%" stop-color="#0A0F1D" />
+    </linearGradient>
+
+    <!-- Card Background -->
+    <linearGradient id="cardBgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1726" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#060A12" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGradDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+
+    <!-- Wave Area Gradient -->
+    <linearGradient id="waveGradDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.0" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="gridPatternDark" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.6" />
+      <circle cx="30" cy="0" r="1.2" fill="#38BDF8" fill-opacity="0.25" />
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="cyanGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGradDark)" />
+  <rect width="1200" height="420" rx="16" fill="url(#gridPatternDark)" />
+  <rect width="1200" height="420" rx="16" fill="none" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="200" cy="80" r="160" fill="#06B6D4" fill-opacity="0.07" filter="url(#cyanGlow)" />
+  <circle cx="1000" cy="340" r="180" fill="#3B82F6" fill-opacity="0.08" filter="url(#cyanGlow)" />
+
+  <!-- ================= LEFT COLUMN: HERO CONTENT ================= -->
+  
+  <!-- Live Status Badge -->
+  <g transform="translate(60, 48)">
+    <rect width="390" height="30" rx="15" fill="#0F172A" stroke="#334155" stroke-width="1" />
+    <circle cx="16" cy="15" r="4.5" fill="#10B981">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="r" values="4.5;5.5;4.5" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="30" y="20" class="font-mono" font-size="11" font-weight="600" fill="#38BDF8" letter-spacing="1">
+      DATA SCIENCE • INTELIGÊNCIA ARTIFICIAL • SISTEMAS
+    </text>
+  </g>
+
+  <!-- Name / Title -->
+  <text x="60" y="130" class="font-sans" font-size="52" font-weight="900" fill="url(#titleGradDark)" letter-spacing="-1">
+    Dyone Andrade
+  </text>
+
+  <!-- Role Subtitle -->
+  <text x="60" y="165" class="font-sans" font-size="20" font-weight="600" fill="#94A3B8">
+    Engenheiro de Software &amp; Cientista de Dados
+  </text>
+
+  <!-- Manifesto / Value Proposition -->
+  <text x="60" y="205" class="font-sans" font-size="14.5" font-weight="400" fill="#CBD5E1" line-height="24">
+    <tspan x="60" dy="0">Desenvolvendo pipelines de dados resilientes, arquiteturas multi-agente e</tspan>
+    <tspan x="60" dy="22">sistemas distribuídos de alta performance com rigor em segurança.</tspan>
+  </text>
+
+  <!-- Pills / Highlights -->
+  <g transform="translate(60, 260)">
+    <!-- Pill 1: HackFAESA Champion -->
+    <g transform="translate(0, 0)">
+      <rect width="210" height="34" rx="8" fill="#1E293B" stroke="#F59E0B" stroke-width="1" stroke-opacity="0.6" />
+      <text x="14" y="22" class="font-sans" font-size="12" font-weight="700" fill="#FCD34D">🏆 1º Lugar HackFAESA '26</text>
+    </g>
+
+    <!-- Pill 2: USP / Esalq MBA -->
+    <g transform="translate(222, 0)">
+      <rect width="180" height="34" rx="8" fill="#1E293B" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.5" />
+      <text x="14" y="22" class="font-sans" font-size="12" font-weight="600" fill="#BAE6FD">🎓 MBA USP / Esalq</text>
+    </g>
+
+    <!-- Pill 3: FAESA CompSci -->
+    <g transform="translate(0, 46)">
+      <rect width="180" height="34" rx="8" fill="#1E293B" stroke="#64748B" stroke-width="1" stroke-opacity="0.6" />
+      <text x="14" y="22" class="font-sans" font-size="12" font-weight="600" fill="#E2E8F0">💻 Ciência da Comp.</text>
+    </g>
+
+    <!-- Pill 4: Cyber Security & Linux -->
+    <g transform="translate(192, 46)">
+      <rect width="210" height="34" rx="8" fill="#1E293B" stroke="#10B981" stroke-width="1" stroke-opacity="0.6" />
+      <text x="14" y="22" class="font-sans" font-size="12" font-weight="600" fill="#6EE7B7">🔐 IBSec • Linux Hardening</text>
+    </g>
+  </g>
+
+  <!-- Location & Site Bar -->
+  <g transform="translate(60, 362)">
+    <text x="0" y="0" class="font-mono" font-size="12" fill="#64748B">
+      📍 Vitória - ES, Brasil  •  🌐 <tspan fill="#38BDF8">dyonedev.com.br</tspan>
+    </text>
+  </g>
+
+  <!-- ================= RIGHT COLUMN: LIVE TELEMETRY CARD ================= -->
+  <g transform="translate(670, 42)">
+    <!-- Terminal Window Container -->
+    <rect width="470" height="336" rx="14" fill="url(#cardBgDark)" stroke="#1E293B" stroke-width="1.5" />
+    <rect width="470" height="42" rx="14" fill="#0B1324" />
+    <!-- Fix bottom corners of titlebar -->
+    <rect x="0" y="24" width="470" height="18" fill="#0B1324" />
+    <line x1="0" y1="42" x2="470" y2="42" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Terminal Window Controls -->
+    <circle cx="24" cy="21" r="5" fill="#EF4444" />
+    <circle cx="42" cy="21" r="5" fill="#F59E0B" />
+    <circle cx="60" cy="21" r="5" fill="#10B981" />
+    <text x="80" y="26" class="font-mono" font-size="11.5" font-weight="600" fill="#94A3B8">
+      telemetry::node_cluster.py
+    </text>
+    <rect x="365" y="11" width="90" height="20" rx="10" fill="#059669" fill-opacity="0.2" stroke="#10B981" stroke-width="0.8" />
+    <text x="382" y="25" class="font-mono" font-size="10" font-weight="700" fill="#34D399">ACTIVE</text>
+
+    <!-- Telemetry Cards Rows -->
+    <g transform="translate(24, 60)">
+      <!-- Row 1: Pipeline Core -->
+      <rect width="202" height="62" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+      <text x="14" y="22" class="font-mono" font-size="10" fill="#64748B" letter-spacing="0.5">COMPUTE ENGINE</text>
+      <text x="14" y="44" class="font-sans" font-size="14" font-weight="700" fill="#F8FAFC">PySpark &amp; C++20</text>
+
+      <!-- Row 2: Inference & LLMs -->
+      <rect x="218" width="204" height="62" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+      <text x="232" y="22" class="font-mono" font-size="10" fill="#64748B" letter-spacing="0.5">AGENTIC &amp; LLMS</text>
+      <text x="232" y="44" class="font-sans" font-size="14" font-weight="700" fill="#38BDF8">LangChain / Gemini</text>
+    </g>
+
+    <!-- Sparkline / Wave Monitor -->
+    <g transform="translate(24, 140)">
+      <rect width="422" height="98" rx="8" fill="#030712" stroke="#1E293B" stroke-width="1" />
+      <text x="14" y="22" class="font-mono" font-size="10" fill="#64748B">THROUGHPUT // LOW-LATENCY STREAMING</text>
+      <text x="345" y="22" class="font-mono" font-size="11" font-weight="700" fill="#10B981">&lt; 14ms</text>
+      
+      <!-- Wave Grid Lines -->
+      <line x1="14" y1="46" x2="408" y2="46" stroke="#1E293B" stroke-dasharray="3,3" stroke-width="0.8" />
+      <line x1="14" y1="70" x2="408" y2="70" stroke="#1E293B" stroke-dasharray="3,3" stroke-width="0.8" />
+
+      <!-- Area Path -->
+      <path d="M 14 85 Q 60 40, 110 65 T 210 50 T 310 70 T 408 42 L 408 90 L 14 90 Z" fill="url(#waveGradDark)" />
+      <!-- Stroke Path -->
+      <path d="M 14 85 Q 60 40, 110 65 T 210 50 T 310 70 T 408 42" fill="none" stroke="#38BDF8" stroke-width="2.5" />
+      
+      <!-- Live Pulse Point -->
+      <circle cx="408" cy="42" r="4" fill="#38BDF8">
+        <animate attributeName="r" values="3;6;3" dur="1.5s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <!-- Telemetry Status Bottom Info -->
+    <g transform="translate(24, 256)">
+      <rect width="422" height="58" rx="8" fill="#0B132B" stroke="#1E293B" stroke-width="1" />
+      <circle cx="20" cy="29" r="4" fill="#38BDF8">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="34" y="26" class="font-mono" font-size="10.5" font-weight="600" fill="#E2E8F0">
+        INFRASTRUCTURE: SELF-HOSTED LINUX &amp; CONTAINER CLUSTERS
+      </text>
+      <text x="34" y="44" class="font-mono" font-size="10" fill="#64748B">
+        Zero-Trust Hardening • Docker Swarm • Fastify/FastAPI Microservices
+      </text>
+    </g>
+  </g>
+</svg>
