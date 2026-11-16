@@ -17,8 +17,14 @@
   <a href="https://linkedin.com/in/dyonenunes" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Dyone_Andrade-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:contato@dyonedev.com.br">
-    <img src="https://img.shields.io/badge/Contato-contato@dyonedev.com.br-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="mailto:dyone.andrade.l@gmail.com">
+    <img src="https://img.shields.io/badge/Email-dyone.andrade.l@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://wa.me/5527996571418" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-(27)_99657--1418-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp 1" />
+  </a>
+  <a href="https://wa.me/5527920040271" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-(27)_92004--0271-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp 2" />
   </a>
   <img src="https://img.shields.io/badge/Localização-Vitória_--_ES,_Brasil-0D1117?style=for-the-badge&logo=linux&logoColor=10B981" alt="Localização" />
 
@@ -31,7 +37,8 @@
     <a href="#-arquitetura-do-ecossistema-de-ia--dados">Arquitetura de Dados & IA</a> •
     <a href="#-stack-tecnológica">Stack Tecnológica</a> •
     <a href="#-trajetória-acadêmica--conquistas">Trajetória & Conquistas</a> •
-    <a href="#-telemetria--github-stats">Estatísticas</a>
+    <a href="#-telemetria--github-stats">Estatísticas</a> •
+    <a href="#-vamos-conversar">Contato</a>
   </p>
 
 </div>
@@ -232,12 +239,33 @@ flowchart LR
 
 ---
 
-<div align="center">
+<div align="center" id="-vamos-conversar">
 
-  **Interessado em colaborar em soluções de IA, engenharia de dados ou sistemas de alta performance?**
-  
-  [**Visitar dyonedev.com.br →**](https://dyonedev.com.br) • [**Conectar no LinkedIn →**](https://linkedin.com/in/dyonenunes)
+  <h3>📫 Vamos Conversar?</h3>
+  <p>Interessado em colaborar em soluções de IA, engenharia de dados ou sistemas de alta performance?</p>
 
+  <p>
+    <a href="mailto:dyone.andrade.l@gmail.com">
+      <img src="https://img.shields.io/badge/Email-dyone.andrade.l@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <a href="https://wa.me/5527996571418" target="_blank">
+      <img src="https://img.shields.io/badge/WhatsApp_1-(27)_99657--1418-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp 1" />
+    </a>
+    <a href="https://wa.me/5527920040271" target="_blank">
+      <img src="https://img.shields.io/badge/WhatsApp_2-(27)_92004--0271-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp 2" />
+    </a>
+  </p>
+
+  <p>
+    <a href="https://dyonedev.com.br" target="_blank">
+      <img src="https://img.shields.io/badge/Portfólio-dyonedev.com.br-0D1117?style=for-the-badge&logo=google-chrome&logoColor=38BDF8" alt="Portfólio" />
+    </a>
+    <a href="https://linkedin.com/in/dyonenunes" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-Dyone_Andrade-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+  </p>
+
+  <br />
   <sub><i>Construído com design system limpo, responsividade nativa e zero vazamento de dados.</i></sub>
 
 </div>
