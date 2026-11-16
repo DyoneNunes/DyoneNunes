@@ -40,7 +40,7 @@
 
 ### 👨‍💻 Visão Geral
 
-Desenvolvedor Full Stack e Engenheiro de Software em aprofundamento contínuo e consolidação estratégica em **Data Science, Inteligência Artificial e Engenharia de Dados**.
+Desenvolvedor Full Stack e Engenheiro de Software em aprofundamento contínuo e consolidação estratégica em **Data Science, Inteligência Artificial e Engenharia de Dados**. Atualmente graduando MBA em **Data Science, IA e Analytics (USP/Esalq)** e graduado em **Tecnologia em Análise e Desenvolvimento de Sistemas (TADS)**.
 
 Minha atuação é pautada na convergência entre **software de altíssima performance** (Python, TypeScript e C++20), **modelagem analítica & pipelines distribuídos** (PySpark, Big Data, LangChain, LLMs) e **infraestrutura resiliente self-hosted** com rigor em **Linux Hardening e Cyber Security**.
 
@@ -181,9 +181,8 @@ flowchart LR
 
 | Nível / Programa | Instituição | Detalhes &amp; Foco |
 |:---|:---|:---|
-| **MBA em Data Science, IA &amp; Analytics** | **USP / Esalq** | Modelagem preditiva, Machine Learning avançado, Big Data e governança analítica. |
-| **Bacharelado em Ciência da Computação** | **FAESA Centro Universitário** | Fundamentos da computação, estruturas de dados avançadas, teoria dos autômatos e arquitetura. |
-| **Tecnologia em Análise e Desenv. de Sistemas** | *Concluído* | Engenharia de requisitos, modelagem relacional, arquitetura de software e ciclo de vida ágil. |
+| **MBA em Data Science, IA &amp; Analytics** | **USP / Esalq** | Modelagem preditiva, Machine Learning avançado, Big Data e governança analítica. *(Graduando)* |
+| **Tecnologia em Análise e Desenv. de Sistemas (TADS)** | *Graduado* | Engenharia de requisitos, modelagem relacional, arquitetura de software e desenvolvimento full stack. |
 | **Certificação IBSec Essencial** | **IBSec** | Cyber Security, Linux Hardening, princípios defensivos, mitigação de vulnerabilidades e segurança operacional. |
 
 </details>
