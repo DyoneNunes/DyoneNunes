@@ -21,10 +21,10 @@
     <img src="https://img.shields.io/badge/Email-dyone.andrade.l@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://wa.me/5527996571418" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-(27)_99657--1418-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp 1" />
+    <img src="https://img.shields.io/badge/WhatsApp-(27)_99657--1418-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
   </a>
-  <a href="https://wa.me/5527920040271" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-(27)_92004--0271-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp 2" />
+  <a href="tel:+5527920040271">
+    <img src="https://img.shields.io/badge/Telefone-(27)_92004--0271-0284C7?style=for-the-badge" alt="Telefone para Chamadas" />
   </a>
   <img src="https://img.shields.io/badge/Localização-Vitória_--_ES,_Brasil-0D1117?style=for-the-badge&logo=linux&logoColor=10B981" alt="Localização" />
 
@@ -249,10 +249,10 @@ flowchart LR
       <img src="https://img.shields.io/badge/Email-dyone.andrade.l@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
     <a href="https://wa.me/5527996571418" target="_blank">
-      <img src="https://img.shields.io/badge/WhatsApp_1-(27)_99657--1418-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp 1" />
+      <img src="https://img.shields.io/badge/WhatsApp-(27)_99657--1418-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
     </a>
-    <a href="https://wa.me/5527920040271" target="_blank">
-      <img src="https://img.shields.io/badge/WhatsApp_2-(27)_92004--0271-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp 2" />
+    <a href="tel:+5527920040271">
+      <img src="https://img.shields.io/badge/Telefone_(Chamadas)-(27)_92004--0271-0284C7?style=for-the-badge" alt="Telefone para Chamadas" />
     </a>
   </p>
 
