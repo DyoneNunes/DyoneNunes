@@ -224,17 +224,17 @@ flowchart LR
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=DyoneNunes&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050811&title_color=38BDF8&icon_color=10B981&text_color=94A3B8" alt="GitHub Stats" height="175" />
+        <img src="https://github-stats-extended.vercel.app/api?username=DyoneNunes&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050811&title_color=38BDF8&icon_color=10B981&text_color=94A3B8" alt="GitHub Stats" height="175" />
       </td>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DyoneNunes&layout=compact&theme=tokyonight&hide_border=true&bg_color=050811&title_color=38BDF8&text_color=94A3B8" alt="Top Languages" height="175" />
+        <img src="https://github-stats-extended.vercel.app/api/top-langs?username=DyoneNunes&layout=compact&theme=tokyonight&hide_border=true&bg_color=050811&title_color=38BDF8&text_color=94A3B8" alt="Top Languages" height="175" />
       </td>
     </tr>
   </table>
 
   <br />
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DyoneNunes&theme=tokyonight&hide_border=true&background=050811&ring=38BDF8&fire=F59E0B&currStreakLabel=38BDF8" alt="Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=DyoneNunes&theme=tokyonight&hide_border=true&background=050811&ring=38BDF8&fire=F59E0B&currStreakLabel=38BDF8" alt="Streak Stats" />
 </div>
 
 ---
